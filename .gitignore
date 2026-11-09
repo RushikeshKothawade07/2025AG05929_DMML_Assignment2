@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environments
+venv/
+env/
+.venv/
+ENV/
+dmml2/
+
+# MLflow SQLite & artifacts
+mlruns/
+*.sqlite
+mlflow.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.log
